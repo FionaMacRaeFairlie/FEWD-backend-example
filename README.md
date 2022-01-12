@@ -1,6 +1,6 @@
 In order to download and use the code examples provided you should clone the repository. 
 
-Cloning is the process of downloading a repository from a remote server  using the clone command. Open a terminal window in Visual Studio Code ( or use a terminal window provided by your operating system). Type the following command to download the project from a remote server to the folder you are currently in locally.
+Cloning is the process of downloading a repository from a remote server  using the clone command. Assumimg you have Git installed on your computer (see https://github.com/git-guides/install-git) open a terminal window in Visual Studio Code ( or use a terminal window provided by your operating system). Type the following command to download the project from a remote server to the folder you are currently in locally.
 
 git clone https://github.com/UserName/RepoName.git   e.g.  git clone https://github.com/FionaMacRaeFairlie/lab2-git.git
 
