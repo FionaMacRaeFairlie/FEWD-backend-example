@@ -3,6 +3,7 @@ const app = express();
 const path = require('path');
 const public = path.join(__dirname,'public');
 app.use(express.static(public));
+
 app.get('/', function(req, res) {
     res.send('Hello! Welcome to my application.');
     })
@@ -14,6 +15,10 @@ app.get('/guestbook', function(req, res) {
 app.get('/about', function(req, res) {
 res.sendFile(path.join(public, 'about.html'));
 })
+
+app.get('/data', function(req, res) {
+    res.json([{name:'s'}]);
+    })
 
 app.use(function(req, res) {
 res.status(404);
